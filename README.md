@@ -44,3 +44,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Installation
+
+npx create-react-app my-app --template typescript
+
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+## Dependencies
+
+npm install classnames
+npm install react-router-dom
+npm install normalize.css
+npm install react-icons
+
+## tsconfig.json
+"baseUrl": "src"
